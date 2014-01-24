@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$HOME/bin:$PATH"
+export PATH="/opt/boxen/homebrew/bin:/Applications/Postgres93.app/Contents/MacOS/bin:$HOME/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
