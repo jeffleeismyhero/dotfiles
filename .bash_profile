@@ -48,5 +48,5 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # Add rbenv shims to path
-export PATH="/opt/boxen/rbenv/bin:$PATH"
+export PATH="/opt/boxen/rbenv/shims:$PATH"
 eval "$(rbenv init -)"
